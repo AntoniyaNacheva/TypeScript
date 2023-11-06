@@ -217,3 +217,5 @@ const getSomething = <T extends { age: number }>(obj: T) => {
 };
 
 getSomething({ age: 12, a: 1, b: 2, c: 3 });
+
+
